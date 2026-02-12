@@ -10,7 +10,7 @@ from pydub import AudioSegment
 from piano_transcription_inference import PianoTranscription, sample_rate, load_audio
 from audio_recorder_streamlit import audio_recorder
 
-from realtime_feature_extracter import extract_features_from_midi
+from src.realtime_feature_extracter import extract_features_from_midi
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 MODEL_DIR = (PROJECT_ROOT / "models" / "model.pkl")
