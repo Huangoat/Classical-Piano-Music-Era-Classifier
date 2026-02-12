@@ -4,10 +4,12 @@ import pandas as pd
 import tempfile
 import os
 from pathlib import Path
+import sys
 
-from realtime_feature_extracter import extract_features_from_midi
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+from src.realtime_feature_extracter import extract_features_from_midi
+
+PROJECT_ROOT = Path(__file__).resolve().parent
 MODEL_DIR = (PROJECT_ROOT / "models" / "model.pkl")
 
 # Page config
