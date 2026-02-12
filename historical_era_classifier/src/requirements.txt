@@ -1,0 +1,14 @@
+numpy
+pandas
+pretty_midi
+tqdm
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+streamlit
+torch
+pydub
+piano-transcription-inference
+audio-recorder-streamlit
+joblib
